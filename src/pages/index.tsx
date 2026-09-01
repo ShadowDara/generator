@@ -5,7 +5,7 @@ export function Home() {
   return (
     <div class="home">
       <h1>Content</h1>
-      <a href="/generator/tellraw">Tellraw from JSON to SNBT</a>
+      <a href="/tellraw">Tellraw from JSON to SNBT</a>
     </div>
   );
 }
