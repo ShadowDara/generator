@@ -18,8 +18,8 @@ export function App() {
       <Header />
       <main>
         <Router>
-          <Route path="/" component={Home} />
-          <Route path="/tellraw" component={Tellraw}></Route>
+          <Route path="/generator/" component={Home} />
+          <Route path="/generator/tellraw" component={Tellraw}></Route>
           <Route default component={NotFound} />
         </Router>
       </main>
